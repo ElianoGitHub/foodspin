@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin the Wheel - Food Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Drink Selection Section -->
+    <section id="mealSelection">
+        <h1>Spin the Wheel For Your Food Idea!</h1>
+        <!-- Button elements for each cocktail will be dynamically generated here -->
+    </section>
+
+    <!-- Canvas for the spinning wheel -->
+    <div id="wheelOfFortune">
+        <canvas id="wheel" width="820" height="820"></canvas> <!-- Increased width and height -->
+        <button id="spin">
+            <span id="spinText">Spin</span>
+        </button>
+    </div>
+
+    <!-- Recipe Display Section -->
+    <div id="FoodDetails" class="hidden">
+        <div class="Food-header">
+            <h1 id="FoodName"></h1>
+        </div>
+        <div class="Food-container">
+            <img id="FoodImage" src="" alt="Food Image" class="Food-image">
+            <div class="Food-info">
+                <h3>Ingredients:</h3>
+                <ul id="ingredientsList"></ul>
+
+                <h3>Instructions:</h3>
+                <ul id="instructionsList"></ul>
+            </div>
+        </div>
+    </div>>
+
+    <!-- Link to your JavaScript files -->
+    <script src="Food.js"></script>
+    <script defer src="script.js"></script>
+
+</body>
+
+</html>
