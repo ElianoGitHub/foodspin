@@ -7,7 +7,7 @@
 
 /* Set a background color */
 body {
-    background-color: #666666;
+    background-color: #144049;
     font-family: 'Arial', sans-serif;
     height: 100vh;
     display: grid;
@@ -36,7 +36,7 @@ body {
     text-align: center;
     font-size: 1.80em;
     margin-bottom: 50px;
-    color: #5CE1E6;
+    color: #BFA51D;
 }
 
 /* Updated .cocktail-container for flexbox */
